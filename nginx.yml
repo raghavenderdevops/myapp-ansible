@@ -1,5 +1,5 @@
 - name: Setup Nginx server on myserver list
-  hosts: myservers
+  hosts: webservers
   become: True
   tasks:
     - name: Install the latest version of nginx
