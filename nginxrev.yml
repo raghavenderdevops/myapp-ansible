@@ -1,5 +1,5 @@
 ---
-- hosts: nginx
+- hosts: webservers
   become: true
   tasks:
     - name: installing nginx as reverse proxy
